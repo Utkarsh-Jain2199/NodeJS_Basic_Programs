@@ -1,0 +1,4 @@
+Reg. No.    Name            Grade
+1001        John Doe        A
+1002        Jane Doe        B
+1003        Bob Smith       C

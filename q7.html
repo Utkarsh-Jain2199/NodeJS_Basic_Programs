@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Socket.IO Example</title>
+    <script src="/socket.io/socket.io.js"></script>
+    <script>
+        const socket = io();
+        socket.on('oddVisitorCount', (count) => {
+            console.log(`Odd visitor count: ${count}`);
+        });
+
+        fetch('/student')
+            .then(response => response.json())
+            .then(student => {
+                console.log('Student details:', student);
+            })
+            .catch(error => console.error(error));
+    </script>
+</head>
+
+<body>
+    <h1>Socket.IO Example</h1>
+    <p>Open the browser console to see the server logs.</p>
+</body>
+
+</html>

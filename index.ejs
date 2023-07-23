@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form method="post" action="/setcookie">
+      <button>Set Cookie</button>
+    </form>
+    <form method="post" action="/remove">
+      <button>remove Cookie</button>
+    </form>
+    <form method="post" action="/show">
+      <button>show button</button>
+    </form>
+    <% if(show) { %> <% if(cookie) { %>
+    <p><%= cookie %></p>
+    <% } else { %>
+    <p>No cookie</p>
+    <% } %> <% } %>
+  </body>
+</html>

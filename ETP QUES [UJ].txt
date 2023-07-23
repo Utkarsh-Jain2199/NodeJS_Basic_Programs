@@ -1,0 +1,45 @@
+Q1 Implement an express application for the following 
+a) Accept a number from the input text field of a user web and perform the basic airthmetic operations, increment (++), decrement (-), and square, on the number inside a middleware funtion of server node.js application.
+b)Display the output values in the user web page as a response to the click event from the button.
+
+Q2 Create an express application for the following scenario
+a) Create a text file and add student information(Reg. No., Name, Grade) in the server system.
+b) Accept a file name from the input text field of a user web page and transfer the requested file using sendFile() function from the server as a response to the button click event from the user web page.
+
+Q3 Create an express application with the following requirements
+a)Set and clear the cookies for a client using the cookie-parser module in the server application.
+b) Display the cookie information on the client web page with a click on the show button and clear the cookie information from the system with a click on the reset button on the user web page.
+
+
+Q4 Create an express application with the following requirements
+a) Accept Student Name, Reg. no., Roll. No., Mobile No. and Mail Id from the input text fields of a client page and perform a chain of validations on the data using the express-validator module in the server
+b) Check all the fields are not empty, minimum and maximum lengths of data.
+c) Add a submit button on the client web page to submit the data and display the warning messages if required.
+
+Q5 Create a web server application with the http module for the following scenario
+ a) Create a server node.js application using http module to verify whether a number is prime or not. 
+b) Accept a number from the input text field of the client page and provide the output values as a response with the click event on a button.
+
+Q6 Create a web server application with http module for the following scenario
+ a) Create a server node.js application using http module to find the nth Fibonacci number
+b) Accept a number from the input text field of the client page and provide the output values as a response with the click event on a button.
+
+
+7: Implement a client-server application with the express, http, and socket.io modules for the following scenario
+a) display the student details in the server console after getting a request conncetion from a client
+b) broadcast the only odd visitor count from the server to all clients with new client connections
+
+8: Implement TCP Socket client and server application with the following criteria.
+a) conncet and send your details to the server from the client application
+b) Display the student details in the server terminal after getting a request conncetion from a client terminal 
+c) send a tahnkyou message to the client terminal.
+
+9: Implement a node.js application to connect with the mongodb for performing the below operations
+a) create a database  and add student collection with the fields sid name,subject,branch, and mark
+b) add multiple document with student data 
+c) sort in ascending order the student details with marks and display them in the console window.
+
+10: Implement a node js application to create a writable stream with a new sample.txt file and perform the following task
+a) find the prime number up to 100 and write the values to sample.txt file with the writable stream
+b) Display the message "task Completed at the end in the console window."
+
